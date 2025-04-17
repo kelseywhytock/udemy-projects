@@ -1,8 +1,8 @@
-<% if (posts.length === 0) {  %>
-  <p>No posts available.</p>
-<% } %>
-
 <div class="post-archive">
+  <% if (posts.length === 0) {  %>
+    <p>No posts available.</p>
+  <% } %>
+
   <% posts.forEach(function(post) { %>
     <hr />
       <p class="pubDate"><em><%= post.date %></em> </p>

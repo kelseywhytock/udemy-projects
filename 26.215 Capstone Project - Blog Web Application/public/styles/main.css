@@ -48,6 +48,7 @@ h1 {
   font-size: 3.5rem;
   margin-top: 0;
   text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .addPost {
@@ -125,4 +126,14 @@ textarea {
   min-height: 300px;
   min-width: 300px;
   border: 1px solid #000;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
